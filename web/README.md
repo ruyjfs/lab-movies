@@ -1,6 +1,6 @@
 # Click Movies
 
-## url project: https://lab-movies.vercel.app
+## Url project: https://lab-movies.vercel.app
 
 Commands we have used for create this project
 Create App with styled-components
@@ -22,6 +22,12 @@ yarn add @material-ui/core @material-ui/icons
 ```
 
 ## Run app
+
+### Just one commando with Docker
+
+```bash
+docker-compose up --build
+```
 
 ### Starts the development server.
 

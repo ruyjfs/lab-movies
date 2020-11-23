@@ -1,0 +1,14 @@
+version: '3.5'
+services: 
+  service-lab-movie:
+    container_name: lab-movie-web
+    image: node:14-slim
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app
+    command: sh -c 'yarn && yarn dev'
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
